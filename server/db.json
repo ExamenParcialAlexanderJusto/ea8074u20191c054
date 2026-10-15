@@ -1,0 +1,35 @@
+{
+  "tech-shelf-sections": [
+    {
+      "id": 1,
+      "name": "Premium Ultrabooks Main Showcase",
+      "laptopCategory": "laptops",
+      "maxCapacity": 10
+    },
+    {
+      "id": 2,
+      "name": "Gaming & High-Performance Display Bay",
+      "laptopCategory": "laptops",
+      "maxCapacity": 8
+    },
+    {
+      "id": 3,
+      "name": "Business & Productivity Rack",
+      "laptopCategory": "laptops",
+      "maxCapacity": 6
+    }
+  ],
+  "laptop-inventory-items": [
+    {
+      "id": 1,
+      "sectionId": 1,
+      "laptopCategoryId": "laptops",
+      "laptopId": 78,
+      "laptopName": "MacBook Pro 14",
+      "price": 1999.99,
+      "imageUrl": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+      "quantity": 2,
+      "registeredAt": "2026-10-14T08:30:00.000Z"
+    }
+  ]
+}

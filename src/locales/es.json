@@ -1,0 +1,45 @@
+{
+  "app": {
+    "title": "Saga Tech Management"
+  },
+  "option": {
+    "home": "Inicio",
+    "new-laptop-inventory-item": "Nuevo Ítem de Inventario de Laptop"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Las Últimas Laptops y Tecnología Directo a tu Hogar"
+  },
+  "tech-collections": {
+    "title": "Mis Colecciones Tecnológicas"
+  },
+  "tech-shelf-section-summary": {
+    "no-laptops": "Sin Laptops",
+    "quantity": "Cantidad",
+    "total-laptops": "Total de Laptops",
+    "available-capacity": "Capacidad Disponible"
+  },
+  "laptop-inventory-item": {
+    "new-title": "Nuevo Ítem de Inventario de Laptop",
+    "subtitle": "Agrega Ítems de Inventario de Laptops a tu Colección",
+    "section": "Sección de Estante Tecnológico",
+    "select-section": "Selecciona una sección de estante",
+    "laptop": "Laptop",
+    "select-laptop": "Selecciona una laptop",
+    "price": "Precio",
+    "quantity": "Cantidad",
+    "available-capacity": "Capacidad disponible: {capacity}",
+    "capacity-exceeded": "La cantidad debe ser menor o igual a la capacidad disponible ({capacity}).",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "created": "Ítem de inventario de laptop registrado correctamente."
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "La ruta {unavailable-route} no fue encontrada.",
+    "go-home": "Ir al Inicio"
+  },
+  "errors": {
+    "occurred": "Ocurrieron errores"
+  }
+}

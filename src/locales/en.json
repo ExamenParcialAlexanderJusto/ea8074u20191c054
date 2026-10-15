@@ -1,0 +1,45 @@
+{
+  "app": {
+    "title": "Saga Tech Management"
+  },
+  "option": {
+    "home": "Home",
+    "new-laptop-inventory-item": "New Laptop Inventory Item"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Latest Laptops & Technology Delivered to Your Home"
+  },
+  "tech-collections": {
+    "title": "My Tech Collections"
+  },
+  "tech-shelf-section-summary": {
+    "no-laptops": "No Laptops",
+    "quantity": "Quantity",
+    "total-laptops": "Total Laptops",
+    "available-capacity": "Available Capacity"
+  },
+  "laptop-inventory-item": {
+    "new-title": "New Laptop Inventory Item",
+    "subtitle": "Add Laptop Inventory Items to Your Collection",
+    "section": "Tech Shelf Section",
+    "select-section": "Select a tech shelf section",
+    "laptop": "Laptop",
+    "select-laptop": "Select a laptop",
+    "price": "Price",
+    "quantity": "Quantity",
+    "available-capacity": "Available capacity: {capacity}",
+    "capacity-exceeded": "Quantity must be less than or equal to the available capacity ({capacity}).",
+    "create": "Create",
+    "cancel": "Cancel",
+    "created": "Laptop inventory item created successfully."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} was not found.",
+    "go-home": "Go Home"
+  },
+  "errors": {
+    "occurred": "Errors occurred"
+  }
+}
