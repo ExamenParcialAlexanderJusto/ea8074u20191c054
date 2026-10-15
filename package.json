@@ -1,22 +1,27 @@
 {
   "name": "ea8074u20191c054",
-  "version": "0.0.0",
   "private": true,
+  "version": "1.0.0",
+  "description": "Saga Falabella Peru Tech Showroom & Laptop Inventory Management System. Built with Vue, Axios, Vite, PrimeVue and Vue I18n, with JavaScript.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^8.3.0"
-  },
   "dependencies": {
     "@primeuix/themes": "^3.0.1",
     "axios": "^1.20.0",
-    "json-server": "^1.0.0-beta.15",
-    "primeicons": "^8.0.2",
-    "primevue": "^5.0.2",
-    "vue-i18n": "^11.4.14"
+    "primeflex": "^4.0.0",
+    "primeicons": "^8.0.1",
+    "primevue": "^5.0.1",
+    "vue": "^3.5.43",
+    "vue-i18n": "^11.4.12",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "json-server": "^0.17.4",
+    "vite": "^8.3.0"
   }
 }
