@@ -1,16 +1,9 @@
 <script setup>
-import {ref} from "vue";
 import {useI18n} from "vue-i18n";
 import BrandLogo from "./brand-logo.vue";
 import SidebarNavigation from "./sidebar-navigation.vue";
 
 const { t } = useI18n();
-
-const drawer = ref(false);
-
-const toggleDrawer = () => {
-  drawer.value = !drawer.value;
-};
 </script>
 
 <template>
@@ -18,13 +11,12 @@ const toggleDrawer = () => {
   <header class="app-header">
     <pv-toolbar class="bg-primary border-none border-noround shadow-1">
       <template #start>
-        <pv-button class="text-white mr-2" icon="pi pi-bars" text rounded @click="toggleDrawer"/>
         <brand-logo/>
         <h3 class="m-0 ml-3 text-white">{{ t('app.title') }}</h3>
       </template>
     </pv-toolbar>
-    <sidebar-navigation v-model:visible="drawer"/>
   </header>
+  <sidebar-navigation/>
   <main class="app-content">
     <router-view/>
   </main>
@@ -41,5 +33,6 @@ const toggleDrawer = () => {
 
 .app-content {
   padding-top: 4.5rem;
+  margin-left: 16rem;
 }
 </style>
